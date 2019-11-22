@@ -41,7 +41,6 @@ int process_client(client_type& new_client, std::vector<client_type>& client_arr
 
 		if (new_client.socket != 0)
 		{	
-			//std::string username
 
 			int iResult = recv(new_client.socket, tempmsg, DEFAULT_BUFLEN, 0);
 
