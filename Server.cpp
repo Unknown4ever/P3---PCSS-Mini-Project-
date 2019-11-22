@@ -33,7 +33,6 @@ int process_client(client_type& new_client, std::vector<client_type>& client_arr
 {
 	std::string msg = "";
 	char tempmsg[DEFAULT_BUFLEN] = "";
-	//std::string username[;
 
 	//Session
 	while (1)
